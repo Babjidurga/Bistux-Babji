@@ -21,5 +21,8 @@ def group_by_first_letter(string):
 
 b = input().split(" ")
 get = group_by_first_letter(b)
-print([(words) for letter,words in get])
+get = group_by_first_letter(b)
+k = ([(words) for letter,words in get])
+for i in k:
+    print(i)
         
